@@ -37,5 +37,7 @@ backend.add(
 backend.add(import('@backstage/plugin-search-backend/alpha'));
 backend.add(import('@backstage/plugin-search-backend-module-catalog/alpha'));
 backend.add(import('@backstage/plugin-search-backend-module-techdocs/alpha'));
+backend.add(import('@backstage/plugin-signals-backend'));
+backend.add(import('@scrumedley/backstage-plugin-retrospective-backend'));
 
 backend.start();
